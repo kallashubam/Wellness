@@ -15,9 +15,9 @@ public class Home {
 	{
 		Browserswitch Bs= new Browserswitch();
 		Bs.Login();
-		Bs.OTP();
+	//	Bs.OTP();
 
-		Bs.click_Register();
+	//	Bs.click_Register();
 		Bs.Register_Customer();
     }
 }
