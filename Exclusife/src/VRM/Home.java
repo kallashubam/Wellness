@@ -15,8 +15,8 @@ public class Home {
 		Bs.Register_Customer();
 		Bs.Save_Details();
 		Thread.sleep(10000);
-		//Bs.ShowCustomer_Details();
-		//Bs.Welcome_Campaign();
+		Bs.ShowCustomer_Details();
+		Bs.Welcome_Campaign();
     }
 }
 
