@@ -32,7 +32,7 @@ import org.openqa.selenium.support.ui.Select;
 		 System.setProperty("webdriver.chrome.driver","D:\\Shubam automation\\chromedriver.exe");
 	        driver = new ChromeDriver();
 	        driver.manage().window().maximize();
-	        
+	          
 		 
 		driver.get("http://staging.exclusife.com");
 	    driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
